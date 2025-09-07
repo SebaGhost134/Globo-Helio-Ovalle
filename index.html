@@ -1,14 +1,10 @@
 <!doctype html>
 <html lang="es">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Globos Helio Ovalle</title>
-  <meta name="description" content="Decoración con globos y helio en Ovalle, Chile. Arreglos para cumpleaños, graduaciones, aniversarios, funerales y más. Reserva por WhatsApp.">
-  <meta property="og:title" content="Globos Vale — Globos con helio en Ovalle">
-  <meta property="og:description" content="Arreglos y decoración con globos y helio. Reserva fácil por WhatsApp.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/gallery-1.svg">
   <link rel="icon" href="assets/Pime.png" type="image/svg+xml">
 
   <!-- CSS principal -->
@@ -17,19 +13,24 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Script para scroll inicial y scrollRestoration universal -->
+  <script>
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    window.addEventListener('load', () => {
+      setTimeout(() => { window.scrollTo({ top: 0, left: 0, behavior: 'auto' }); }, 50);
+    });
+  </script>
 </head>
+
 <body>
   <!-- Header -->
   <header class="site-header">
     <div class="container nav">
-      <a class="brand" href="#inicio">
-        <img src="assets/logo.svg" alt="Logo Globos Helio Ovalle" width="120" height="30" />
-      </a>
-      <nav>
+      <nav style="justify-content:center;">
         <a href="#servicios">Servicios</a>
         <a href="#galeria">Galería</a>
-        <a href="#opiniones">Opiniones</a>
-        <a href="#faq">FAQ</a>
+        <a href="#faq">Ver más Servicios</a>
       </nav>
     </div>
   </header>
@@ -41,10 +42,14 @@
       <div class="container hero-inner">
         <div class="hero-text">
           <h1>Globos con helio en Ovalle 🎈</h1>
-          <p>Hacemos <strong>arreglos de globos</strong> lindos y personalizados para <em>🎉Graduaciones, Funerales🌹,Cumpleaños 🎂, funerales, revelaciones de sexo y más</em>.</p>
+          <p>Hacemos <strong>arreglos de globos</strong> lindos y personalizados para <em>Toda la comuna de Ovalle</em>.</p>
           <div class="cta">
-            <a class="btn" href="https://wa.me/56989284978?text=Hola%20Globos%20Vale!%20Quiero%20reservar%20%F0%9F%8E%88" target="_blank" rel="noopener">📍 Has tu reserva aqui 📍</a>
-            <a class="btn btn-outline" href="https://www.instagram.com/globoshelio_plus?igsh=Zzc0dno3emx0Zmd5" target="_blank" rel="noopener" aria-label="Instagram @globos_valeeee">Siguienos por Instagram</a>
+            <a class="btn"
+              href="https://wa.me/56989284978?text=Hola%20Globos%20Helio%20Ovalle!%20Quiero%20reservar%20%F0%9F%8E%88"
+              target="_blank" rel="noopener">📍 Haz tu reserva aquí 📍</a>
+            <a class="btn btn-outline"
+              href="https://www.instagram.com/globoshelio_plus?igsh=Zzc0dno3emx0Zmd5"
+              target="_blank" rel="noopener" aria-label="Instagram @globos_valeeee">Síguenos por Instagram</a>
           </div>
           <ul class="badges">
             <li>📍 Ovalle, Chile</li>
@@ -53,7 +58,7 @@
           </ul>
         </div>
         <div class="hero-media">
-          <img src="assets/gallery-1.svg" alt="Arreglo de globos con helio de ejemplo" loading="eager">
+          <img src="assets/Imagen a resaltar.jpg" alt="Arreglo de globos con helio de ejemplo" loading="eager">
         </div>
       </div>
     </section>
@@ -61,20 +66,14 @@
     <!-- Servicios -->
     <section id="servicios" class="section">
       <div class="container">
-        <h2>Nuestros servicios</h2>
+        <h2 style="text-align:center;">Nuestros servicios</h2>
         <div class="grid cards">
-          <article class="card">
-            <h3>Arreglos con helio</h3>
-            <p>Ramos, números gigantes, letras, temáticos y más. Personalízalo con colores y mensaje.</p>
-          </article>
-          <article class="card">
-            <h3>Decoración de eventos</h3>
-            <p>Arcos, columnas, backdrops y centros de mesa para tu evento o celebración.</p>
-          </article>
-          <article class="card">
-            <h3>Entregas programadas</h3>
-            <p>Coordinamos retiro o despacho en horarios convenientes para ti.</p>
-          </article>
+          <article class="card"><h3>🎉Graduaciones</h3></article>
+          <article class="card"><h3>🌹Funerales</h3></article>
+          <article class="card"><h3>🎂Cumpleaños</h3></article>
+          <article class="card"><h3>💍Aniversarios</h3></article>
+          <article class="card"><h3>👶Revelación de sexo</h3></article>
+          <article class="card"><h3>🎀Bienvenidas y mucho más!</h3></article>
         </div>
       </div>
     </section>
@@ -82,14 +81,14 @@
     <!-- Galería -->
     <section id="galeria" class="section alt">
       <div class="container">
-        <h2>Galería</h2>
+        <h2 style="text-align:center;">Galería</h2>
         <div class="grid gallery">
-          <img src="assets/gallery-2.svg" alt="Decoración con globos 1" loading="lazy">
-          <img src="assets/gallery-3.svg" alt="Decoración con globos 2" loading="lazy">
-          <img src="assets/gallery-4.svg" alt="Decoración con globos 3" loading="lazy">
-          <img src="assets/gallery-5.svg" alt="Decoración con globos 4" loading="lazy">
-          <img src="assets/gallery-6.svg" alt="Decoración con globos 5" loading="lazy">
-          <img src="assets/gallery-1.svg" alt="Decoración con globos 6" loading="lazy">
+          <img src="assets/Imagen1.jpg" alt="Decoración con globos 1" loading="lazy">
+          <img src="assets/Imagen2.jpg" alt="Decoración con globos 2" loading="lazy">
+          <img src="assets/Imagen3.jpg" alt="Decoración con globos 3" loading="lazy">
+          <img src="assets/Imagen4.jpg" alt="Decoración con globos 4" loading="lazy">
+          <img src="assets/Imagen5.jpg" alt="Decoración con globos 5" loading="lazy">
+          <img src="assets/Imagen6.jpg" alt="Decoración con globos 6" loading="lazy">
         </div>
       </div>
     </section>
@@ -108,7 +107,7 @@
     <!-- FAQ -->
     <section id="faq" class="section">
       <div class="container">
-        <h2>Preguntas frecuentes</h2>
+        <h2 style="text-align:center;">Preguntas frecuentes</h2>
         <details>
           <summary>¿Con cuánta anticipación debo reservar?</summary>
           <p>Para fechas altas, al menos 3–5 días. Para pedidos simples, 24–48 horas.</p>
@@ -127,14 +126,14 @@
 
   <!-- Footer -->
   <footer class="site-footer">
-    <div class="container">
-      <p>© <span id="year"></span> Globos Helio Ovalle. Hecho con ❤️ y Cariño.</p>
+    <div class="container" style="text-align:center;">
+      <p>© <span id="year"></span> Globos Helio Ovalle. Hecho con ❤️ y cariño.</p>
     </div>
   </footer>
 
-  <!-- Botón WhatsApp -->
-  <button class="whatsapp-float" aria-label="Chat por WhatsApp">💬</button>
-
-  <script src="script.js"></script>
+  <!-- Script para actualizar año -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
